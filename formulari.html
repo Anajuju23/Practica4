@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulari pràctica 4</title>
+        <meta charset="UTF-8">
+        <link rel="form" href="formulari_enviat.html">
+
+    </head>
+    <body>
+
+        <form action="formulari_enviat.html">
+            <h1>Subscriu-te al formulari ITIC Barcelona</h1>
+            <h4>Primer, explica'ns qui ets</h4>
+            <label for="nom">Nom i Cognoms: </label>
+            <input type="text" class="nom" required> *
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" class="email" required> *
+            <br>
+            <br>
+            <label for="edat">Edat: </label>
+            <input type="number" id="edat" required> *
+            <br>
+            <br>
+            <h4>Quin cicle estàs estudiant?</h4>
+            <input type="checkbox" id="cicle1" name="cicle1" value="ASIX">
+            <label for="cicle1">ASIX</label>
+            <br>
+            <br>
+            <input type="checkbox" id="cicle2" name="cicle2" value="DAM">
+            <label for="cicle2">DAM</label>
+            <br>
+            <br>
+            <input type="checkbox" id="cicle3" name="cicle3" value="DAW">
+            <label for="cicle3">DAW</label>
+            <br>
+            <br>
+            <label for="curs">I en quin curs?</label>
+            <select id="curs" name="curs">
+                <option value="primer">primer</option>
+                <option value="segon">segon</option>
+            </select>
+            <br>
+            <br>
+            <h4>Marca els temes que vulguis estar sempre al día!</h4>
+            <input type="radio" id="ia" name="temes" value="intel·ligència artificial">
+            <label for="ia">intel·ligència artificial</label>
+            <br>
+            <br>
+            <input type="radio" id="cq" name="temes" value="computació quàntica">
+            <label for="ia">Computació quàntica </label>
+            <br>
+            <br>
+            <input type="radio" id="sc" name="temes" value="supercomputadors">
+            <label for="ia">Supercomputadors</label>
+            <br>
+            <br>
+            <input type="radio" id="ra" name="temes" value="Recerca en algorísmia">
+            <label for="ia">Recerca en algorísmia </label>
+            <br>
+            <br>
+            <h4>Hi ha algún tema més que t'interessi? Explica'ns-ho!</h4>
+            <textarea name="missatge" rows="15" cols="25">
+També m'agradaria saber les últimes novetats sobre...
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+
+
+
+        </form>
+    </body>
+</html>
